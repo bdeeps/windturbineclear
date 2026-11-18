@@ -1,0 +1,960 @@
+{
+  "title": "The history of the wind turbine",
+  "tagline": "From spinning mills in Persia and a 12 kW giant in Cleveland to 26 MW offshore machines.",
+  "intro": "People have used wind for more than a thousand years, first to grind grain and pump water. The big step was making electricity with it. A few pioneers in the late 1800s proved it, and Danish engineers, NASA and others made it work. Sources disagree on a few early details, so this history says so.",
+  "eras": [
+    {
+      "id": "mills",
+      "name": "Mills of wind",
+      "from": 650,
+      "to": 1880,
+      "color": "#c49bff",
+      "summary": "Wind turns millstones and pumps water in Persia, Europe and China. Nobody yet makes power."
+    },
+    {
+      "id": "spark",
+      "name": "First electricity",
+      "from": 1887,
+      "to": 1945,
+      "color": "#ffb547",
+      "summary": "Blyth, Brush and la Cour turn wind into current. Betz sets the limit, and Smith–Putnam sends a megawatt to a grid."
+    },
+    {
+      "id": "reinvent",
+      "name": "Rebuilding the turbine",
+      "from": 1957,
+      "to": 1981,
+      "color": "#5ce1a9",
+      "summary": "The Danish three-blade design, glass-fibre blades and NASA's tests set the pattern for modern turbines."
+    },
+    {
+      "id": "scale",
+      "name": "Wind farms and giants",
+      "from": 1985,
+      "to": 2025,
+      "color": "#8ef0ff",
+      "summary": "California builds wind farms, Denmark goes offshore, and China grows into the biggest wind market. Turbines grow from under 1 MW to over 20 MW."
+    }
+  ],
+  "events": [
+    {
+      "year": 800,
+      "date": "c. 650–900 CE",
+      "era": "mills",
+      "art": "wind",
+      "title": "Spinning mills on the Persian plateau",
+      "who": "Unknown Persian millwrights",
+      "where": "Sistan",
+      "country": "Iran and Afghanistan",
+      "text": "The first windmills historians can point to turned in Sistan, on today's Iran–Afghanistan border. Their six to twelve sails spun around an upright shaft. They were in use by the 9th century and may date from the 7th. Sources cite 644 CE or 915 CE, and windmills still stand at Nashtifan, Iran.",
+      "why": "These are the earliest windmills that historians can point to.",
+      "key": true,
+      "box": "power",
+      "sources": [
+        0,
+        15,
+        16
+      ]
+    },
+    {
+      "year": 1185,
+      "date": "1185",
+      "era": "mills",
+      "art": "building",
+      "title": "The first certain European windmill",
+      "who": "Unknown millers",
+      "where": "Weedley, Yorkshire",
+      "country": "England",
+      "text": "The earliest certain mention of a windmill in Europe is from 1185, at Weedley in Yorkshire. A few earlier 12th-century records exist, but their dates are less certain.",
+      "why": "Wind power became part of daily work in towns and farms.",
+      "box": "blade",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1300,
+      "date": "14th century",
+      "era": "mills",
+      "art": "wave",
+      "title": "Dutch mills drain the land",
+      "who": "Dutch millwrights",
+      "where": "Rhine delta",
+      "country": "Netherlands",
+      "text": "By the 14th century, Dutch windmills were draining low areas of the Rhine delta. Wind was now moving water, not only grinding grain.",
+      "why": "Wind power could change a whole landscape.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1500,
+      "date": "by 1500",
+      "era": "mills",
+      "art": "waterdrop",
+      "title": "Windmills pump seawater for salt",
+      "who": "Salt makers",
+      "where": "China and Sicily",
+      "country": "China and Italy",
+      "text": "By 1500, windmills in China and in Sicily pumped seawater for salt-making. Wind power worked far from where it began.",
+      "why": "Wind power worked far from where it began.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1887,
+      "date": "1887 (built 1885–87)",
+      "era": "spark",
+      "art": "coil",
+      "title": "A cloth-sailed turbine lights a Scottish cottage",
+      "who": "James Blyth",
+      "where": "Marykirk, Scotland",
+      "country": "Scotland",
+      "text": "James Blyth, a professor at Anderson's College in Glasgow, built a cloth-sailed turbine about 10 m (33 ft) high. It stood in the garden of his holiday cottage in Marykirk and charged batteries that lit the cottage. An 1883 Vienna design by Josef Friedlaender is sometimes cited as earlier.",
+      "why": "The wind could make electricity, not only turn a millstone.",
+      "key": true,
+      "box": "power",
+      "sources": [
+        12,
+        0
+      ]
+    },
+    {
+      "year": 1888,
+      "date": "1887–88",
+      "era": "spark",
+      "art": "bolt",
+      "title": "Brush's 12 kW giant in Cleveland",
+      "who": "Charles F. Brush",
+      "where": "Cleveland, Ohio",
+      "country": "United States",
+      "text": "Charles Brush built a large turbine at his Cleveland mansion in the winter of 1887–88. It had a 17 m rotor on an 18 m tower and was rated at 12 kW. It charged a bank of batteries for his house. Sources date its start to 1886 or 1888.",
+      "why": "It was one of the first large turbines to make electricity day after day.",
+      "key": true,
+      "box": "nacelle",
+      "sources": [
+        13,
+        17,
+        0
+      ]
+    },
+    {
+      "year": 1891,
+      "date": "1891",
+      "era": "spark",
+      "art": "flask",
+      "title": "Hydrogen from wind at Askov",
+      "who": "Poul la Cour",
+      "where": "Askov, Denmark",
+      "country": "Denmark",
+      "text": "At Askov Folk High School, la Cour built an experimental mill in 1891 with government support. He stored its energy by splitting water into hydrogen and oxygen. The school was lit with the gas from 1895 to 1902.",
+      "why": "He treated the windmill as a small power station.",
+      "box": "power",
+      "sources": [
+        17,
+        7
+      ]
+    },
+    {
+      "year": 1903,
+      "date": "1903",
+      "era": "spark",
+      "art": "person",
+      "title": "The first society of wind electricians",
+      "who": "Poul la Cour",
+      "where": "Askov, Denmark",
+      "country": "Denmark",
+      "text": "In 1903 la Cour founded the Society of Wind Electricians, said to be the first of its kind. It ran courses that trained rural people in wind electricity.",
+      "why": "He trained a generation of wind engineers.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 1908,
+      "date": "1908",
+      "era": "spark",
+      "art": "plug",
+      "title": "Denmark has 72 wind generators",
+      "who": "Danish engineers",
+      "where": "Denmark",
+      "country": "Denmark",
+      "text": "By 1908 Denmark had 72 wind-driven electric generators of 5 kW to 25 kW.",
+      "why": "Small wind power was already a rural industry.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1919,
+      "date": "1919",
+      "era": "spark",
+      "art": "scales",
+      "title": "Betz sets the limit",
+      "who": "Albert Betz",
+      "where": "Germany",
+      "country": "Germany",
+      "text": "German physicist Albert Betz showed that no turbine can capture more than 16/27, about 59.3 percent, of the wind's kinetic energy. Frederick Lanchester reached the same result in 1915, and Nikolay Zhukovsky published it in 1920.",
+      "why": "Every design since has worked under this ceiling.",
+      "box": "curve",
+      "sources": [
+        1,
+        19
+      ]
+    },
+    {
+      "year": 1922,
+      "date": "1922",
+      "era": "spark",
+      "art": "battery",
+      "title": "The Jacobs brothers' ranch wind plant",
+      "who": "Marcellus and Joe Jacobs",
+      "where": "Montana",
+      "country": "United States",
+      "text": "In 1922 the Jacobs brothers put a wind electric system on their family's Montana ranch. Neighbours wanted one too, and the brothers moved their company to Minneapolis in 1931.",
+      "why": "Wind power reached farms that had no power line.",
+      "sources": [
+        8,
+        17
+      ]
+    },
+    {
+      "year": 1933,
+      "date": "1933",
+      "era": "spark",
+      "art": "mountain",
+      "title": "A Jacobs machine runs in Antarctica",
+      "who": "Richard E. Byrd",
+      "where": "Little America, Antarctica",
+      "country": "Antarctica",
+      "text": "Richard Byrd took a Jacobs wind machine to Antarctica. It was installed at his Little America base in 1933 and is said to have run until 1955.",
+      "why": "A small turbine could run in some of the harshest weather on Earth.",
+      "sources": [
+        17,
+        8
+      ]
+    },
+    {
+      "year": 1941,
+      "date": "19 October 1941",
+      "era": "spark",
+      "art": "plane",
+      "title": "Smith–Putnam feeds a grid",
+      "who": "Palmer Putnam, built by S. Morgan Smith Company",
+      "where": "Grandpa's Knob, Vermont",
+      "country": "United States",
+      "text": "The 1.25 MW Smith–Putnam turbine had two blades and a rotor about 53 m (175 ft) wide. It was first synchronised to the local grid on the evening of 19 October 1941. Its generator was rated 1,250 kVA.",
+      "why": "It stayed the largest wind turbine ever built until 1979.",
+      "key": true,
+      "box": "nacelle",
+      "sources": [
+        13,
+        2
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "26 March 1945",
+      "era": "spark",
+      "art": "wrench",
+      "title": "A blade breaks and the dream pauses",
+      "who": "S. Morgan Smith Company",
+      "where": "Castleton, Vermont",
+      "country": "United States",
+      "text": "A blade failed on 26 March 1945 at a known weak point that wartime shortages had left unreinforced. The machine had run for about 1,100 hours in all. It was not rebuilt.",
+      "why": "Big blades must survive fatigue, not only the wind.",
+      "box": "blade",
+      "sources": [
+        13,
+        2
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "1957",
+      "era": "reinvent",
+      "art": "gear",
+      "title": "The Gedser turbine shows the way",
+      "who": "Johannes Juul",
+      "where": "Gedser, Denmark",
+      "country": "Denmark",
+      "text": "Johannes Juul, who studied wind electricity under la Cour, built a 200 kW three-bladed upwind turbine at Gedser for the utility SEAS. Its rotor was about 24 m wide and its stall-regulated blades had tip brakes. It ran from 1957 to 1967 without maintenance, and its simple layout became known as the Danish design.",
+      "why": "It is the ancestor of most turbines you see today.",
+      "key": true,
+      "box": "blade",
+      "sources": [
+        13,
+        6
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "1957",
+      "era": "reinvent",
+      "art": "blade",
+      "title": "Hütter's light glass-fibre rotor",
+      "who": "Ulrich Hütter",
+      "where": "Stuttgart, Germany",
+      "country": "Germany",
+      "text": "Ulrich Hütter unveiled the StGW-34, a 100 kW turbine with a 34 m rotor. Its blades were glass-fibre reinforced plastic and their angle could be adjusted. NASA engineers later studied Hütter's and the Danish designs.",
+      "why": "Light blades and pitch control are now standard.",
+      "box": "blade",
+      "sources": [
+        9,
+        13
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "1975",
+      "era": "reinvent",
+      "art": "telescope",
+      "title": "NASA tests wind in Ohio",
+      "who": "NASA Lewis (now Glenn)",
+      "where": "Plum Brook Station, Ohio",
+      "country": "United States",
+      "text": "NASA's timeline records the dedication of the Mod-0A wind turbine at Plum Brook Station in 1975, and marks 1979 as the peak of its wind research. The DOE–NASA Mod series started with the 100 kW Mod-0. The Gedser turbine was refurbished in 1975 for NASA testing.",
+      "why": "Government labs tested ideas that firms could copy.",
+      "box": "nacelle",
+      "sources": [
+        14,
+        13,
+        6
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "1978",
+      "era": "reinvent",
+      "art": "motor",
+      "title": "Tvind builds a 2 MW giant",
+      "who": "Tvind school teachers and students",
+      "where": "Ulfborg, Denmark",
+      "country": "Denmark",
+      "text": "Teachers and students of the Tvind school built Tvindkraft near Ulfborg. Described as the first multi-megawatt wind turbine, it could deliver 2 MW and used new blade designs.",
+      "why": "A community project beat the big firms to the megawatt scale.",
+      "box": "blade",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "1981",
+      "era": "reinvent",
+      "art": "bolt",
+      "title": "NASA's Mod-2 trio makes 7.5 MW",
+      "who": "NASA and the US Department of Energy",
+      "where": "Goodnoe Hills (Goldendale), Washington",
+      "country": "United States",
+      "text": "A cluster of three 2.5 MW Mod-2 turbines stood in Washington state in 1981, 7.5 MW in all. The later 3.2 MW Mod-5B, a scaled-up Mod-2, ran in Oahu, Hawaii, from 1987 to 1996.",
+      "why": "Public money pushed turbines to bigger sizes.",
+      "box": "power",
+      "sources": [
+        0,
+        13
+      ]
+    },
+    {
+      "year": 1985,
+      "date": "1981–1987",
+      "era": "scale",
+      "art": "road",
+      "title": "California's wind rush",
+      "who": "Californian developers",
+      "where": "Altamont Pass, California",
+      "country": "United States",
+      "text": "A 25 percent federal tax credit, doubled by California, and high power-purchase prices set off a wind rush. About 17,000 mostly small turbines, most of 100 kW or less, went up in three California passes between 1981 and 1987. Altamont Pass, with over 6,000, made about half of the world's wind power by 1985.",
+      "why": "It was the first big test of wind farms, with many small machines.",
+      "key": true,
+      "box": "farm",
+      "sources": [
+        18,
+        10
+      ]
+    },
+    {
+      "year": 1989,
+      "date": "1989",
+      "era": "scale",
+      "art": "spokes",
+      "title": "China opens its first wind farm",
+      "who": "Chinese utilities",
+      "where": "Dabancheng, Xinjiang",
+      "country": "China",
+      "text": "The Dabancheng wind farm opened in 1989 with thirteen 150 kW turbines made by the Danish firm Bonus Energy.",
+      "why": "China began a road that would end with half the world's wind capacity.",
+      "box": "farm",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1991",
+      "era": "scale",
+      "art": "boat",
+      "title": "The first offshore wind farm",
+      "who": "Elkraft, with Bonus Energy",
+      "where": "Vindeby, off Lolland",
+      "country": "Denmark",
+      "text": "Eleven 450 kW Bonus turbines, 4.95 MW in all, stood off Lolland. Vindeby is generally described as the first offshore wind farm. It was taken down in 2017.",
+      "why": "The sea has stronger, steadier wind than the land.",
+      "box": "farm",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1998,
+      "date": "1998",
+      "era": "scale",
+      "art": "building",
+      "title": "Goldwind starts turbine work",
+      "who": "Goldwind (chairman Wu Gang)",
+      "where": "Xinjiang and Beijing",
+      "country": "China",
+      "text": "Goldwind dates its start-up phase to 1998–2005, when it began developing turbines. Its predecessor, Xinjiang Wind Energy, was founded with a $3.2 million Danish government grant and built China's first wind farm.",
+      "why": "It grew into a leading maker of turbines.",
+      "sources": [
+        30,
+        11
+      ]
+    },
+    {
+      "year": 2003,
+      "date": "2002–2003",
+      "era": "scale",
+      "art": "trophy",
+      "title": "Horns Rev: wind power goes large offshore",
+      "who": "Elsam (now Ørsted)",
+      "where": "Off Jutland, North Sea",
+      "country": "Denmark",
+      "text": "Horns Rev 1 was built off western Jutland in 2002–2003. It has 80 Vestas V80-2.0 MW turbines, 160 MW in all. It is called the first large-scale offshore wind farm, and the first to use monopile foundations and an offshore substation.",
+      "why": "Offshore wind became a real power source.",
+      "key": true,
+      "box": "farm",
+      "sources": [
+        20,
+        21
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "era": "scale",
+      "art": "boat",
+      "title": "A turbine floats off Norway",
+      "who": "Statoil (now Equinor)",
+      "where": "Off Karmøy, Norway",
+      "country": "Norway",
+      "text": "Statoil put a Siemens 2.3 MW turbine on a floating foundation off Karmøy in 2009. It is described as the first full-scale floating wind turbine.",
+      "why": "Floating turbines open deep water to wind power.",
+      "box": "farm",
+      "sources": [
+        22,
+        4
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014–2015",
+      "era": "scale",
+      "art": "earth",
+      "title": "China passes 100 GW",
+      "who": "Chinese industry",
+      "where": "China",
+      "country": "China",
+      "text": "China passed 100 GW of wind capacity around 2014–15. Counts differ: one published table lists about 115 GW for the end of 2014, while IRENA data give 97 GW in 2014 and 131 GW in 2015.",
+      "why": "The centre of the wind industry moved east.",
+      "box": "grid",
+      "sources": [
+        31,
+        11
+      ]
+    },
+    {
+      "year": 2017,
+      "date": "October 2017",
+      "era": "scale",
+      "art": "wave",
+      "title": "Floating turbines form a wind farm",
+      "who": "Statoil (now Equinor)",
+      "where": "Off Peterhead, Scotland",
+      "country": "United Kingdom",
+      "text": "Hywind Scotland began producing power in October 2017. It has five 6 MW turbines, 30 MW in all.",
+      "why": "Floating wind moved from a test to a farm.",
+      "box": "farm",
+      "sources": [
+        22,
+        5
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "7 November 2019",
+      "era": "scale",
+      "art": "wing",
+      "title": "Haliade-X reaches 12 MW",
+      "who": "GE Renewable Energy",
+      "where": "Maasvlakte, Rotterdam",
+      "country": "Netherlands",
+      "text": "GE's 12 MW Haliade-X prototype made its first power on 7 November 2019 in Rotterdam. It had 107 m blades and a 220 m rotor.",
+      "why": "It showed how long blades could grow.",
+      "box": "blade",
+      "sources": [
+        23,
+        24
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "December 2022",
+      "era": "scale",
+      "art": "gear",
+      "title": "A 15 MW prototype with 115 m blades",
+      "who": "Vestas",
+      "where": "Østerild, Denmark",
+      "country": "Denmark",
+      "text": "The Vestas V236-15.0 MW prototype made its first power at the Østerild test centre. Vestas gives its blade length as 115.5 m, its rotor as 236 m and its swept area as 43,742 square metres.",
+      "why": "Each blade is longer than a football pitch.",
+      "key": true,
+      "box": "blade",
+      "sources": [
+        25,
+        26
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "28 August 2024",
+      "era": "scale",
+      "art": "boat",
+      "title": "20 MW offshore turbine in the South China Sea",
+      "who": "Mingyang",
+      "where": "Hainan",
+      "country": "China",
+      "text": "Mingyang said it installed its MySE18.X-20MW turbine at a site in Hainan on 28 August 2024. It gives the rating as up to 20 MW and the rotor as 260 to 292 m across, and calls it the largest single-capacity offshore turbine. These are company claims.",
+      "why": "Turbines kept growing.",
+      "box": "blade",
+      "sources": [
+        27
+      ]
+    },
+    {
+      "year": 2024,
+      "date": "mid-October 2024",
+      "era": "scale",
+      "art": "tv",
+      "title": "A 26 MW turbine rolls off the line",
+      "who": "Dongfang Electric",
+      "where": "Fuzhou, China",
+      "country": "China",
+      "text": "Dongfang Electric says its 26 MW offshore turbine rolled off a production line in Fuzhou. It gives the rotor as over 310 m and the hub height as 185 m, and calls it the world's largest. These are company claims.",
+      "why": "The size race has no clear end yet.",
+      "key": true,
+      "box": "power",
+      "sources": [
+        28,
+        29
+      ]
+    },
+    {
+      "year": 2025,
+      "date": "end of 2025",
+      "era": "scale",
+      "art": "earth",
+      "title": "About 1,300 GW worldwide",
+      "who": "IRENA and GWEC",
+      "where": "World",
+      "country": "World",
+      "text": "World wind capacity reached about 1,291 GW at the end of 2025 by IRENA data, or 1,299 GW by GWEC's count. China had about 641 GW, close to half.",
+      "why": "Wind is now a main source of power.",
+      "key": true,
+      "box": "grid",
+      "sources": [
+        32,
+        31
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First offshore wind farm",
+      "value": "1991",
+      "who": "Vindeby, Denmark (generally cited)"
+    },
+    {
+      "label": "First large-scale offshore wind farm",
+      "value": "2002–03",
+      "who": "Horns Rev 1, Denmark"
+    },
+    {
+      "label": "First floating large turbine in deep water",
+      "value": "2009",
+      "who": "Hywind Demo, Norway"
+    },
+    {
+      "label": "A megawatt-size turbine on a grid",
+      "value": "1941",
+      "who": "Smith–Putnam, Vermont"
+    },
+    {
+      "label": "China's first wind farm",
+      "value": "1989",
+      "who": "Dabancheng, Xinjiang"
+    }
+  ],
+  "people": [
+    {
+      "name": "Poul la Cour",
+      "life": "1846 – 1908",
+      "role": "Scientist and teacher",
+      "from": "Denmark",
+      "note": "Built wind electricity at Askov, tested models in a wind tunnel and founded the Danish Wind Electricity Society."
+    },
+    {
+      "name": "Charles F. Brush",
+      "life": "1849 – 1929",
+      "role": "Inventor and businessman",
+      "from": "United States",
+      "note": "Built a 12 kW turbine in Cleveland that charged batteries for his house."
+    },
+    {
+      "name": "James Blyth",
+      "life": "1839 – 1906",
+      "role": "Professor of natural philosophy",
+      "from": "Scotland",
+      "note": "Lit his cottage in Marykirk with a cloth-sailed turbine in 1887."
+    },
+    {
+      "name": "Albert Betz",
+      "life": "1885 – 1968",
+      "role": "Physicist",
+      "from": "Germany",
+      "note": "Published the 59.3 percent limit on how much wind energy any turbine can capture."
+    },
+    {
+      "name": "Johannes Juul",
+      "life": "1887 – 1969",
+      "role": "Engineer",
+      "from": "Denmark",
+      "note": "Studied under la Cour and built the Gedser turbine in 1957."
+    },
+    {
+      "name": "Ulrich Hütter",
+      "life": "1910 – 1990",
+      "role": "Aeronautical engineer",
+      "from": "Austria and Germany",
+      "note": "Built a 34 m glass-fibre rotor in Stuttgart in 1957."
+    },
+    {
+      "name": "Trudy Forsyth",
+      "life": "",
+      "role": "Wind engineer",
+      "from": "United States",
+      "note": "Has worked with US manufacturers for NREL since 1995, led its distributed wind work, and co-founded Women of Wind Energy."
+    },
+    {
+      "name": "Wu Gang",
+      "life": "",
+      "role": "Chairman of Goldwind",
+      "from": "China",
+      "note": "Chairman of Goldwind, which began turbine development in 1998."
+    },
+    {
+      "name": "Marcellus Jacobs",
+      "life": "",
+      "role": "Wind-plant maker",
+      "from": "United States",
+      "note": "With his brother Joe, made wind electric plants for farms from a Montana start in 1922."
+    }
+  ],
+  "series": [
+    {
+      "id": "power",
+      "title": "Rated power of landmark turbines",
+      "unit": "MW",
+      "log": true,
+      "after": "reinvent",
+      "caption": "From 12 kW to 26 MW: the largest turbines now rate more than 2,000 times Brush's.",
+      "points": [
+        {
+          "year": 1888,
+          "value": 0.012,
+          "label": "Brush, Cleveland: 12 kW"
+        },
+        {
+          "year": 1941,
+          "value": 1.25,
+          "label": "Smith–Putnam: 1.25 MW (rated)"
+        },
+        {
+          "year": 1957,
+          "value": 0.2,
+          "label": "Gedser: 200 kW"
+        },
+        {
+          "year": 1978,
+          "value": 2,
+          "label": "Tvind: 2 MW"
+        },
+        {
+          "year": 1991,
+          "value": 0.45,
+          "label": "Vindeby: 450 kW each"
+        },
+        {
+          "year": 2003,
+          "value": 2,
+          "label": "Horns Rev V80: 2 MW each"
+        },
+        {
+          "year": 2009,
+          "value": 2.3,
+          "label": "Hywind Demo: 2.3 MW"
+        },
+        {
+          "year": 2017,
+          "value": 6,
+          "label": "Hywind Scotland: 6 MW each"
+        },
+        {
+          "year": 2019,
+          "value": 12,
+          "label": "Haliade-X: 12 MW"
+        },
+        {
+          "year": 2022,
+          "value": 15,
+          "label": "Vestas V236: 15 MW"
+        },
+        {
+          "year": 2024,
+          "value": 20,
+          "label": "Mingyang MySE 18.X: up to 20 MW"
+        },
+        {
+          "year": 2024,
+          "value": 26,
+          "label": "Dongfang: 26 MW (company claim)"
+        }
+      ]
+    },
+    {
+      "id": "capacity",
+      "title": "Wind power installed worldwide",
+      "unit": "GW",
+      "log": true,
+      "after": "scale",
+      "caption": "World wind capacity grew about 76 times in 25 years (IRENA data).",
+      "points": [
+        {
+          "year": 2000,
+          "value": 17,
+          "label": "2000: 17 GW"
+        },
+        {
+          "year": 2005,
+          "value": 58.5,
+          "label": "2005: 58 GW"
+        },
+        {
+          "year": 2010,
+          "value": 180.8,
+          "label": "2010: 181 GW"
+        },
+        {
+          "year": 2015,
+          "value": 416.4,
+          "label": "2015: 416 GW"
+        },
+        {
+          "year": 2020,
+          "value": 733.3,
+          "label": "2020: 733 GW"
+        },
+        {
+          "year": 2025,
+          "value": 1291,
+          "label": "2025: 1,291 GW"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    "No turbine can capture more than 59.3 percent of the wind's energy. That is Betz's limit.",
+    "The Smith–Putnam rotor was 53 m wide in 1941. Vestas' V236 blade alone is 115.5 m long.",
+    "By 1985, Altamont Pass in California made about half of the world's wind power.",
+    "The Gedser turbine ran from 1957 to 1967 without maintenance.",
+    "China had about 641 GW of wind capacity at the end of 2025, about half the world's."
+  ],
+  "sources": [
+    {
+      "title": "History of wind power",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_wind_power"
+    },
+    {
+      "title": "Betz's law",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Betz%27s_law"
+    },
+    {
+      "title": "Smith–Putnam wind turbine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Smith%E2%80%93Putnam_wind_turbine"
+    },
+    {
+      "title": "Vindeby Offshore Wind Farm",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vindeby_Offshore_Wind_Farm"
+    },
+    {
+      "title": "Hywind",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hywind"
+    },
+    {
+      "title": "Hywind Scotland",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hywind_Scotland"
+    },
+    {
+      "title": "Gedser wind turbine",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gedser_wind_turbine"
+    },
+    {
+      "title": "Poul la Cour",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Poul_la_Cour"
+    },
+    {
+      "title": "Jacobs Wind",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Jacobs_Wind"
+    },
+    {
+      "title": "Ulrich W. Hütter",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ulrich_W._H%C3%BCtter"
+    },
+    {
+      "title": "Wind power in the United States",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wind_power_in_the_United_States"
+    },
+    {
+      "title": "Wind power in China",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wind_power_in_China"
+    },
+    {
+      "title": "Papers of James Blyth",
+      "publisher": "University of Strathclyde Archives & Special Collections",
+      "url": "https://www.strath.ac.uk/professionalservices/library/researchrevise/collections/archivesspecialcollections/items/papersofjamesblyth/"
+    },
+    {
+      "title": "From 1970s Pioneers to Today’s Wind Industry, Aerospace Researchers Championed Wind Energy",
+      "publisher": "US Department of Energy (Office of Energy Efficiency & Renewable Energy)",
+      "url": "https://www.energy.gov/eere/wind/articles/1970s-pioneers-todays-wind-industry-aerospace-researchers-championed-wind-energy"
+    },
+    {
+      "title": "Glenn historical timeline",
+      "publisher": "NASA",
+      "url": "https://www.nasa.gov/glenn-historical-timeline/"
+    },
+    {
+      "title": "Iranians pioneers of wind-power harnessing",
+      "publisher": "Tehran Times",
+      "url": "https://www.tehrantimes.com/news/408532/Iranians-pioneers-of-wind-power-harnessing"
+    },
+    {
+      "title": "Iran’s Centuries-Old Windmills May Soon Stop Turning",
+      "publisher": "National Geographic Education Blog",
+      "url": "https://blog.education.nationalgeographic.org/2017/01/16/irans-centuries-old-windmills-may-soon-stop-turning/"
+    },
+    {
+      "title": "Wind Turbines",
+      "publisher": "illinois-windmills (illinoiswindmills.org)",
+      "url": "https://www.illinoiswindmills.org/wind-turbines"
+    },
+    {
+      "title": "Solving Wind Energy In Altamont Pass",
+      "publisher": "Ava Community Energy",
+      "url": "https://avaenergy.org/from-the-ceos-desk/solving-wind-energy-in-altamont-pass/"
+    },
+    {
+      "title": "Betz Limit",
+      "publisher": "REUK.co.uk",
+      "url": "https://www.reuk.co.uk/wordpress/wind/betz-limit/"
+    },
+    {
+      "title": "How Horns Rev 1 paved the way for offshore wind",
+      "publisher": "Vattenfall",
+      "url": "https://group.vattenfall.com/press-and-media/newsroom/2023/how-horns-rev-1-paved-the-way-for-offshore-wind/"
+    },
+    {
+      "title": "World’s First Large-Scale Offshore Wind Farm Turns 20",
+      "publisher": "offshoreWIND.biz",
+      "url": "https://www.offshorewind.biz/2023/08/29/worlds-first-large-scale-offshore-wind-farm-turns-20/"
+    },
+    {
+      "title": "Hywind Scotland",
+      "publisher": "Equinor",
+      "url": "https://www.equinor.com/energy/hywind-scotland"
+    },
+    {
+      "title": "Power Up: The World’s Most Powerful Wind Turbine Generates First Electrons",
+      "publisher": "GE",
+      "url": "https://www.ge.com/news/reports/power-up-the-worlds-most-powerful-wind-turbine-generates-first-electrons"
+    },
+    {
+      "title": "GE Haliade-X 12MW Produces First Power in Rotterdam",
+      "publisher": "offshoreWIND.biz",
+      "url": "https://www.offshorewind.biz/2019/11/07/ge-haliade-x-12mw-produces-first-power-in-rotterdam/"
+    },
+    {
+      "title": "V236-15.0 MW",
+      "publisher": "Vestas",
+      "url": "https://www.vestas.com/en/products/offshore/V236-15MW"
+    },
+    {
+      "title": "Vestas 15 MW Prototype Turbine Produces First Power",
+      "publisher": "offshoreWIND.biz",
+      "url": "https://www.offshorewind.biz/2022/12/30/vestas-15-mw-prototype-turbine-produces-first-power/"
+    },
+    {
+      "title": "Mingyang Says 20-MW Offshore Wind Turbine Installed in South China Sea",
+      "publisher": "POWER Magazine",
+      "url": "https://www.powermag.com/mingyang-says-20-mw-offshore-wind-turbine-installed-in-south-china-sea/"
+    },
+    {
+      "title": "Dongfang Unveils Record-Smashing 26 MW Offshore Wind Turbine",
+      "publisher": "The Maritime Executive",
+      "url": "https://maritime-executive.com/article/dongfang-unveils-record-smashing-26-mw-offshore-wind-turbine"
+    },
+    {
+      "title": "World’s First 26 MW Offshore Wind Turbine Rolls Off Production Line",
+      "publisher": "offshoreWIND.biz",
+      "url": "https://www.offshorewind.biz/2024/10/14/worlds-first-26-mw-offshore-wind-turbine-rolls-off-production-line/"
+    },
+    {
+      "title": "Leading global provider of wind power solutions",
+      "publisher": "Goldwind",
+      "url": "https://www.goldwind.com/en/about/"
+    },
+    {
+      "title": "Cumulative installed wind energy capacity (IRENA Renewable Energy Statistics)",
+      "publisher": "Our World in Data",
+      "url": "https://ourworldindata.org/grapher/cumulative-installed-wind-energy-capacity-gigawatts"
+    },
+    {
+      "title": "Global Wind Installations Rise Record 40% as Industry Charts Way Out of Energy Crisis",
+      "publisher": "GWEC (Global Wind Energy Council)",
+      "url": "https://www.gwec.net/news/global-wind-installations-rise-record-40-as-industry-charts-way-out-of-energy-crisis"
+    }
+  ]
+}

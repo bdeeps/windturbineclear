@@ -1,0 +1,114 @@
+{
+  "slug": "windturbineclear",
+  "box": 232,
+  "date": "2026-11-29",
+  "title": "WindTurbineClear",
+  "question": "How does a wind turbine make power?",
+  "hook": "A turbine does not get pushed round by the wind. Its blades are wings, and lift pulls them. Double the wind and the power goes up eight times, yet no rotor can ever take more than 59 percent. Open the nacelle, sweep the power curve and see why wakes cost a wind farm.",
+  "thumbText": "HOW WIND MAKES POWER",
+  "field": "machines",
+  "minutes": 15,
+  "tags": [
+    "wind turbine",
+    "wind power",
+    "renewable energy",
+    "blade",
+    "lift",
+    "Betz limit",
+    "generator",
+    "power curve",
+    "wind farm",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Cube of the wind",
+      "text": "The power in the wind crossing a rotor is half the air density times the swept area times the wind speed cubed. Double the speed and the power goes up eight times. Double the rotor diameter and it goes up four times, which is why blades keep getting longer."
+    },
+    {
+      "title": "Never all of it",
+      "text": "A rotor cannot stop the air or the air would pile up. In 1919 and 1920 Albert Betz showed that no open rotor can take more than 16/27 of the wind power, about 59.3 percent. Good blades capture roughly 45 percent. Slide the braking control and watch the peak sit at one third."
+    },
+    {
+      "title": "A blade is a wing",
+      "text": "The wind does not push the blades flat on. They are airfoils. The wind and the blade's own motion combine into a relative wind, and the curved shape turns it into lift. Tilted forward, lift pulls the blade round, and drag only slows it. Too steep an angle and the flow separates: the blade stalls."
+    },
+    {
+      "title": "Why blades are twisted",
+      "text": "The tip moves much faster than the root, so the relative wind arrives at a different angle along the blade. The tip-speed ratio is tip speed over wind speed, around 6 to 9. A twist from root to tip keeps each slice at a good angle of attack, and pitching the whole blade tunes it."
+    },
+    {
+      "title": "Slow shaft, fast generator",
+      "text": "In the nacelle the rotor turns a low-speed shaft at about 5 to 15 rpm. A gearbox of around 1:100 lifts it to what a generator wants, or a direct-drive turbine uses a wide many-poled generator instead. Magnets pass coils, the changing field pushes current, and three sets of coils give three-phase power."
+    },
+    {
+      "title": "The power curve",
+      "text": "Output starts at the cut-in speed, about 3 to 4 metres per second, climbs with the cube of the wind, and levels off at rated power around 11 to 13 metres per second. Above that the blades pitch to spill wind. At about 25 metres per second they feather and the turbine parks."
+    },
+    {
+      "title": "Wakes and the grid",
+      "text": "Each turbine leaves slow, turbulent air behind it, so farms space turbines several rotor diameters apart. Capacity factors are roughly 25 to 45 percent onshore and 35 to 55 percent offshore. Output varies with the weather, so storage, other plants and wide spreading of farms fill the gaps."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Swept area",
+      "def": "The circle the blades sweep out; the wind power through it is half rho A v cubed."
+    },
+    {
+      "term": "Betz limit",
+      "def": "The most any open rotor can take from the wind: 16/27, about 59.3 percent."
+    },
+    {
+      "term": "Angle of attack",
+      "def": "The angle between the relative wind and the chord line of the blade."
+    },
+    {
+      "term": "Tip-speed ratio",
+      "def": "Blade tip speed divided by the wind speed."
+    },
+    {
+      "term": "Stall",
+      "def": "When the angle is too steep, the flow separates, lift drops and drag jumps."
+    },
+    {
+      "term": "Pitch",
+      "def": "Turning a blade about its long axis; 90 degrees is feathered, edge-on to the wind."
+    },
+    {
+      "term": "Nacelle",
+      "def": "The housing on top of the tower that holds the drivetrain, brake and controls."
+    },
+    {
+      "term": "Cut-in, rated, cut-out",
+      "def": "The wind speeds at which a turbine starts, reaches full power, and shuts down."
+    },
+    {
+      "term": "Wake",
+      "def": "The slower, more turbulent air behind a turbine."
+    },
+    {
+      "term": "Capacity factor",
+      "def": "Yearly energy divided by the energy at rated power all year."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "windturbineclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
